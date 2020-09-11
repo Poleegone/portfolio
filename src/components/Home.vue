@@ -1,15 +1,17 @@
 <template>
-  <div class="flex flex-col justify-between px-10">
-      <div class="header mb-10">
-        <h1 class="mt-6 text-white text-4xl">Toby Dart</h1>
-      </div>
-      <div class="content mb-10">
-        <div style="padding:56.25% 0 0 0;position:relative;">
-            <iframe src="https://player.vimeo.com/video/373406844?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <div class="flex flex-col justify-between px-10 h-screen">
+      <div class="header mb-10 mt-10 flex flex-row justify-between align-baseline">
+        <h1 class="text-white text-4xl">Toby Dart</h1>
+        <div class="flex flex-col sm:flex-row justify-center items-end sm:items-center">
+          <a class="text-green-500 hover:text-indigo-500 text-xl sm:mr-2" href="https://twitter.com/yhchkn_">twitter</a>
+          <a class="text-green-500 hover:text-indigo-500 text-xl sm:mr-2" href="https://www.artstation.com/tobydart">artstation</a>
+          <a class="text-green-500 hover:text-indigo-500 text-xl" href="https://www.linkedin.com/in/tobydart/">linkedin</a>
         </div>
       </div>
-      <div class="footer flex justify-center items-center">
-        <a class=" text-green-500 hover:text-indigo-500" href="https://twitter.com/yhchkn_">twitter</a>
+      <div class="content" style="height: 80%;">
+        <div class="flex justify-center">
+          <iframe src="https://player.vimeo.com/video/373406844?title=0&byline=0&portrait=0" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
       </div>
   </div>
 </template>
