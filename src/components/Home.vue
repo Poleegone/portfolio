@@ -3,7 +3,6 @@
       <div class="header mb-10 mt-10 flex flex-row justify-between align-baseline">
         <h1 class="text-white text-4xl">Toby Dart</h1>
         <div class="flex flex-col sm:flex-row justify-center items-end sm:items-center">
-          <a class="text-green-500 hover:text-indigo-500 text-xl sm:mr-2" href="https://twitter.com/yhchkn_">twitter</a>
           <a class="text-green-500 hover:text-indigo-500 text-xl" href="https://www.linkedin.com/in/tobydart/">linkedin</a>
         </div>
       </div>
